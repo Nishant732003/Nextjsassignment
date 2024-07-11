@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import SearchInput from "./Serachbar";
-
+import Image from "next/image";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
@@ -30,7 +30,7 @@ export default function Navbar() {
           <Image
             className="hidden sm:block w-294px h-60px"
             src="/HobbyCue.svg"
-            alt="Your Company"
+            alt="YourCompany"
           />
           <Image
             className="sm:hidden w-48 h-12"
@@ -120,7 +120,7 @@ export default function Navbar() {
         <div className="flex items-center sm:hidden">
           <Image src="/search2.svg" className="ml-5" alt="Vector2" />
           <Image src="/Vector.svg" className="ml-5" alt="Vector2" />
-          <Image src="/menu.svg" className="ml-5" />
+          <Image src="/menu.svg" className="ml-5" alt="image" />
         </div>
       </div>
     </nav>

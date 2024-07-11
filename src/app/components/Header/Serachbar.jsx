@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 export default function SearchInput() {
   return (
     <div
@@ -32,7 +32,7 @@ export default function SearchInput() {
         data-twe-ripple-color="light"
       >
         <span className="h-5 w-4">
-          <Image src="/search.svg" />
+          <Image src="/search.svg" alt="image" />
         </span>
       </button>
     </div>

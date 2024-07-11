@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-
+import Image from "next/image";
 const ProductCard = () => {
   return (
     <div className="container mx-auto px-4">
